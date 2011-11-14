@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+footer, section, header, figure, figcaption {
+  display: block;
+}
+html, body {
+  font-size: 15px;
+  font-family: helvetica, arial, sans-serif;
+  background: #111;
+  color: #ccc;
+}
+h1 {
+  color: #b4d455;
+  font-weight: normal;
+  letter-spacing: -1px;
+  font-size:30px;
+}
+h2 {
+  color: #c0ffee;
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+
+section, header, footer {
+  padding: 10px 2em;
+}
+section header{
+  padding: 10px 0;
+}
+footer {
+  font-size: 10px;
+  color: #999;
+  text-align: center;
+  margin: 3em 0;
+}
+footer a {
+  color: #ccc;
+}
