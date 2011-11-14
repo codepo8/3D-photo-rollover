@@ -34,7 +34,7 @@
   transition:         all 1s;
 
 }
-.image3d figure:hover img {
+.image3d figure:hover img,.image3d figure:focus img  {
 
   /* rotate the image and move it to the back */
   -webkit-transform: rotateY( 50deg ) rotateX( 10deg )
@@ -60,14 +60,12 @@
   bottom: 10px;
   width: 230px;
 }
-.image3d:hover figcaption {
+.image3d:hover figcaption, .image3d:focus figcaption {
   -webkit-transition: all 1s;
   -moz-transition:    all 1s;
   -ms-transition:     all 1s;
   -o-transition:      all 1s;
   transition:         all 1s;
-}
-.image3d:hover figcaption {
   left: 80px;
 }
 .image3d figcaption strong {

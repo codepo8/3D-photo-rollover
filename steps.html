@@ -52,10 +52,10 @@
     .interactive figcaption {
       left: 300px;
     }  
-    .interactive:hover img {
+    .interactive:hover img, .interactive:focus img {
       opacity: 0.4;
     }
-    .interactive:hover figcaption {
+    .interactive:hover figcaption, .interactive:focus figcaption {
       left: 75px;
     }
     .smooth img {
@@ -133,7 +133,7 @@
   <section>
     <header><h2>Step 3: interactive</h2></header>
     <ul>
-      <li class="positioned interactive">
+      <li class="positioned interactive" tabindex="0">
         <figure>
           <img src="mittens.jpg" alt="Mittens the cat">
           <figcaption>
@@ -149,7 +149,7 @@
   <section>
     <header><h2>Step 4: smooth</h2></header>
     <ul>
-      <li class="positioned interactive smooth">
+      <li class="positioned interactive smooth" tabindex="0">
         <figure>
           <img src="mittens.jpg" alt="Mittens the cat">
           <figcaption>
@@ -165,7 +165,7 @@
   <section>
     <header><h2>Step 5: 3D</h2></header>
     <ul>
-      <li class="positioned interactive smooth threed">
+      <li class="positioned interactive smooth threed" tabindex="0">
         <figure>
           <img src="mittens.jpg" alt="Mittens the cat">
           <figcaption>
@@ -181,7 +181,7 @@
 
   <footer>
     <p>Written by 
-      <a href="http://wait-till-i.com/">Chris Heilmann</a> - 
+      <a href="http://christianheilmann.com/">Chris Heilmann</a> - 
       <a href="http://twitter.com/codepo8">@codepo8</a>
     </p>
   </footer>
